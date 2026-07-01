@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translation Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Language Translation Tool</h1>
+
+    <textarea
+        id="inputText"
+        placeholder="Enter text"></textarea>
+
+    <select id="sourceLang">
+        <option value="en">English</option>
+        <option value="ta">Tamil</option>
+        <option value="hi">Hindi</option>
+        <option value="fr">French</option>
+    </select>
+
+    <select id="targetLang">
+        <option value="ta">Tamil</option>
+        <option value="en">English</option>
+        <option value="hi">Hindi</option>
+        <option value="fr">French</option>
+    </select>
+
+    <button id="translateBtn">Translate</button>
+
+    <textarea
+        id="outputText"
+        placeholder="Translated text"
+        readonly></textarea>
+
+    <button id="copyBtn">Copy</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
